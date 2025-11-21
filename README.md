@@ -3,7 +3,7 @@
 ## Estructura del proyecto
 
 proyecto_ventas/
-├── data/ventas.csv                # Coloca aquí tu dataset (Sample - Superstore u otro)
+├── data/ventas.csv                # dataset (Sample - Superstore u otro)
 ├── notebooks/                     # Notebooks o scripts exploratorios
 │   └── analisis_exploratorio.py
 ├── models/
@@ -18,14 +18,15 @@ proyecto_ventas/
 └── TUTORIAL.md                    # Tutorial detallado para el PDF final
 
 ## Resumen rápido de cómo usar
-1. Coloca tu dataset en `data/ventas.csv`.
-2. Instala dependencias: `pip install -r requirements.txt`
-3. Ejecuta scripts en orden (opcional): 
+1. -`data/ventas.csv`.
+2. -`pip install -r requirements.txt`
+3. Ejecutar scripts: 
    - `python scripts/data_prep.py`
    - `python scripts/eda.py`
    - `python scripts/train_model.py`
-4. Inicia la app: `streamlit run app/app.py`
+4. - `streamlit run app/app.py`
 
 ## Notas
-- Todos los scripts están comentados y listos para ejecutarse con un dataset de ventas típico.
-- Si tu dataset tiene nombres de columnas diferentes, adapta los nombres en `scripts/data_prep.py`.
+- Todos los scripts están comentados
+- `scripts/data_prep.py`.
+- Trabajo realizado por los estudiantes: Marlon Colon, Johan de Leon 
