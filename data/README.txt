@@ -1,0 +1,1 @@
+Coloca tu dataset CSV aquí con nombre 'ventas.csv' o modifica los scripts para usar otro nombre.
